@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #000;
+}
+
+.main {
+      box-sizing: border-box;
+    font-family: 'century gothic', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    width: 180px;
+    height: 60px;
+    color: #FFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 60px;
+    letter-spacing: 2px;
+    margin: 20% auto;
+    transition: 0.2s;
+    padding: 15px 30px;
+    overflow: hidden;
+}
+
+a:hover {
+    color: #255784;
+    background-color: #FFF;
+    box-shadow: 0 0 10px #FFF, 0 0 40px #FFF, 0 0 80px #FFF;
+    transition-delay: 0.1s;
+}
